@@ -18,20 +18,20 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
-            src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            src="https://cdn.poehali.dev/projects/754d4e06-d3be-48a6-940c-76bace94548f/files/b06468ee-e136-44a7-b361-42d8a48bd55f.jpg"
+            alt="Китайские традиционные узоры"
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-black/50" />
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+      <h3 className="absolute top-12 right-6 text-sm md:text-base lg:text-lg uppercase tracking-widest z-10" style={{ color: "#e8c97a" }}>
+        天人合一 · Гармония неба и земли
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
+      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl z-10 leading-tight">
+        Каждый слайд — это окно в мудрость Востока. Создавай презентации, которые оставляют след в памяти.
       </p>
     </div>
   );
